@@ -1,0 +1,14 @@
+{
+  "name": "omnipotence",
+  "displayName": "Omnipotence",
+  "expo": {
+    "version": "0.0.1",
+    "owner": "",
+    "slug": "",
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
