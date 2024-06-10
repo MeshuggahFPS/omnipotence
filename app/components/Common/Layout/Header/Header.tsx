@@ -1,18 +1,8 @@
 import React from 'react';
 
-import { Button } from './Button';
 import './header.css';
-
-type User = {
-  name: string;
-};
-
-interface HeaderProps {
-  user?: User;
-  onLogin?: () => void;
-  onLogout?: () => void;
-  onCreateAccount?: () => void;
-}
+import { HeaderProps } from './Header.types';
+import { Button } from '@Button/Button';
 
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
   <header>
@@ -34,7 +24,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
             />
           </g>
         </svg>
-        <h1>Acme</h1>
+        <h1>Nextjs</h1>
       </div>
       <div>
         {user ? (

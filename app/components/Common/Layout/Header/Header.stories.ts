@@ -1,6 +1,6 @@
+import { Header } from '@Layouts/Header/Header';
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
-import { Header } from './Header';
 
 const meta = {
   title: 'Example/Header',
@@ -24,7 +24,7 @@ type Story = StoryObj<typeof meta>;
 export const LoggedIn: Story = {
   args: {
     user: {
-      name: 'Jane Doe',
+      name: 'Christiaan F',
     },
   },
 };
